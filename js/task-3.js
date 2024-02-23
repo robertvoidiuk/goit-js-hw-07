@@ -1,12 +1,20 @@
-const nameInput = document.getElementById('name-input');
-const nameOutput = document.getElementById('name-output');
+const refs = {
+    input: document.querySelector('#name-input'),
+    span: document.querySelector('#name-output'),
+}
 
-nameInput.addEventListener('input', (event) => {
-  const inputText = event.target.value.trim();
+refs.input.addEventListener('input', (event) => refs.span.textContent = event.target.value.trim() || 'Anonymous');
 
-  if (inputText === '' || /^\s+$/.test(inputText)) {
-    nameOutput.textContent = 'Anonymous';
-  } else {
-    nameOutput.textContent = inputText;
-  }
-});
+// function onInput(event) {
+//     const input = event.target;
+
+//     // refs.span.textContent = input.value.trim() || 'Anonymous';
+
+//     // if (input.value.trim()) {
+//     //     refs.span.textContent = input.value.trim()
+//     // } else {
+//     //     refs.span.textContent = 'Anonymous';
+//     // }
+
+//     input.value.trim() ? refs.span.textContent = input.value.trim():refs.span.textContent = 'Anonymous';
+// }
