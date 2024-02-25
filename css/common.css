@@ -216,11 +216,89 @@ body {
 /* #endregion */
 
 /* Task 6 */
+.input-area-tsix {
+  width: 486px;
+  background-color: #f6f6fe;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  padding: 32px;
+}
+
+.input-tsix {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+  width: 150px;
+  height: 40px;
+
+  background-color: transparent;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px;
+  padding-left: 64px;
+  margin-right: 8px;
+}
+
+.btn-first-for-tsix {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
+  margin-right: 8px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  cursor: pointer;
+  transition: 250ms ease-in-out;
+}
+
+.btn-first-for-tsix:hover {
+  background-color: #6c8cff;
+}
+
+.btn-second-for-tsix {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #ff4e4e;
+  border: none;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  cursor: pointer;
+  transition: 250ms ease-in-out;
+}
+
+.btn-second-for-tsix:hover {
+  background-color: #ff7070;
+}
 
 #boxes {
+  width: 486px;
+  padding: 32px;
+
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  border-radius: 8px;
+  background-color: #f6f6fe;
 }
 
 .box {
