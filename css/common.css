@@ -13,6 +13,57 @@ body {
   line-height: 1.5;
 }
 
+/* Task 1 */
+/* #region */
+.item {
+  background-color: #f6f6fe;
+  list-style-type: none;
+  width: 392px;
+  height: auto;
+  padding: 16px;
+
+  border-radius: 8px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.title-tf {
+  margin: 0;
+  margin-bottom: 16px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.list-tf {
+  padding-left: 0;
+}
+
+.list-item-tf {
+  list-style-type: none;
+  border: 1px solid rgb(92, 92, 92);
+  border-radius: 8px;
+  padding: 8px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.list-item-tf:not(:last-child) {
+  margin-bottom: 8px;
+}
+/* #endregion */
+
 /* Task 6 */
 
 #boxes {
