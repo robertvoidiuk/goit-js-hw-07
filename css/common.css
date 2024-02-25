@@ -216,6 +216,7 @@ body {
 /* #endregion */
 
 /* Task 6 */
+/* #region */
 .input-area-tsix {
   width: 486px;
   background-color: #f6f6fe;
@@ -306,3 +307,4 @@ body {
   height: 30px;
   background-color: #000;
 }
+/* #endregion */
