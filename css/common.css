@@ -64,6 +64,28 @@ body {
 }
 /* #endregion */
 
+/* Task 2 */
+/* #region */
+.list-ts {
+  width: 1128px;
+  padding-left: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 32px;
+}
+
+.list-item-ts {
+  list-style: none;
+}
+
+.img-ts {
+  width: 360px;
+  height: 300px;
+}
+/* #endregion */
+
 /* Task 6 */
 
 #boxes {
