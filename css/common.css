@@ -86,6 +86,39 @@ body {
 }
 /* #endregion */
 
+/* Task 3 */
+/* #region */
+.input-tt {
+  width: 360px;
+  padding: 8px;
+
+  border: 1px solid rgb(92, 92, 92);
+  border-radius: 8px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.input-tt:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.title-tt {
+  margin: 0;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+/* #endregion */
+
 /* Task 6 */
 
 #boxes {
