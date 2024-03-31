@@ -37,6 +37,10 @@ images.forEach(image => {
 
   imgElem.src = image.url;
   imgElem.alt = image.alt;
+  
+  liElem.classList.add('list-item-ts');
+  imgElem.classList.add('img-ts');
+
 
   liElem.append(imgElem);
   gallery.append(liElem);
